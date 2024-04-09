@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./fonts/TT\ Hoves\ Pro\ Trial\ Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./fonts/TT\ Hoves\ Pro\ Trial\ Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./fonts/TT\ Hoves\ Pro\ Trial\ Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('./fonts/TT\ Hoves\ Pro\ Trial\ Bold.ttf');
+    font-weight: 700;
+}

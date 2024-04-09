@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://roud-rock-bicycle-repair.vercel.app/font.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* container */
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* container end */
+
+/* btn */
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 18px 53px;
+    border-radius: 30px;
+    background: #FDBA10;
+    transition: all .3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #FFFFFF;
+    color: #FDBA10;
+}
+
+/* btn end */
+
+/* home */
+.home {
+    padding: 34px 0 20px 0;
+    background: url('./images/home-bg.png') no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+.home .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 202px;
+}
+
+.home .container .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.home .container .logo .text {
+    color: #FFF;
+    font-family: 'Sen', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home .container .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 94px;
+}
+
+.home .container .bottom .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.home .container .bottom .top .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home .container .bottom .top .text .title {
+    color: #FFF;
+    font-family: 'Sen', sans-serif;
+    font-size: 74px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.home .container .bottom .top .text .desc {
+    width: 552px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.home .container .bottom .socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 57px;
+}
+
+.home .container .bottom .socials .social-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.home .container .bottom .socials span {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.home .container .bottom .socials span a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+}
+
+/* home end */
+
+/* work */
+.work {
+    padding: 50px 0;
+    background: url('./images/how-we-work-bg.png') no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.work .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.work .container .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.work .container .top .left {
+    width: 277px;
+    color: #C98A40;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.work .container .top .right {
+    color: #FFF;
+    text-align: right;
+    font-family: 'Sen', sans-serif;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+
+.work .container .center {
+    width: 100%;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* work end */
+
+/* about */
+.about {
+    padding: 50px 0;
+    background: url('./images/about-us-bg.png') no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.about .container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .container .left {
+    width: 508px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.about .container .left .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about .container .left .text .title {
+    color: #FFF;
+    font-family: 'Sen', sans-serif;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+
+.about .container .left .text .desc {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+/* about end */
+
+/* services */
+.services {
+    padding: 70px 0 50px 0;
+}
+
+.services .container {
+    max-width: 1200px;
+}
+
+.services .container,
+.services .container .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.services .container .content {
+    width: 100%;
+    gap: 50px;
+}
+
+.services .container .content>.title {
+    color: #C98A40;
+    font-family: 'Sen', sans-serif;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+
+.services .container .content .items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services .container .content .items .item {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 30px;
+    background: #FFF;
+    border: 1px solid #FFD8AB;
+}
+
+.services .container .content .items .item .img {
+    width: 100%;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services .container .content .items .item .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.services .container .content .items .item .bottom .title {
+    color: #C98A40;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+}
+
+.services .container .content .items .item .bottom .desc {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* services end */
+
+/* testimonials */
+.testimonials {
+    padding: 50px 0;
+    background: url('./images/testimonials-bg.png') no-repeat, #C98A40;
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonials .container {
+    max-width: 1153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.testimonials .container .title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+
+.testimonials .container .testimonial-items {
+    max-width: 1074px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 46px;
+}
+
+.testimonials .container .testimonial-items .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonials .container .testimonial-items .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item {
+    border-radius: 40px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 20px 50px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .img img {
+    width: 80px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content .text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content .text .sub-title {
+    color: #C98A40;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content .text .desc {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content .stars {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.testimonials .container .testimonial-items .testimonial-item .content .stars .star img {
+    width: 18px;
+}
+
+/* testimonials end */
+
+/* contact */
+.contact {
+    padding: 50px 0;
+    position: relative;
+    background: #FCFCFC;
+}
+
+.contact::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF80;
+    z-index: 0;
+}
+
+.contact .content {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contact .content .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact .content .text .title {
+    color: #C98A40;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    font-size: 144px;
+    font-weight: 800;
+    line-height: 96%;
+    text-transform: uppercase;
+}
+
+.contact .container .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.contact .container .bottom .form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contact .container .bottom .form input {
+    width: 374px;
+    height: 56px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-radius: 51px;
+    font-size: 18px;
+    background: #FFD39F;
+}
+
+.contact .container .bottom .form input::placeholder {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.contact .container .bottom .form button {
+    width: 168px;
+    height: 56px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    color: #FFD39F;
+    border-radius: 51px;
+    font-size: 18px;
+    border: 3px solid #FFD39F;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all .3s ease;
+}
+
+.contact .container .bottom .form button:hover,
+.contact .container .bottom .form button:focus {
+    background: #FFD39F;
+    color: #FFF;
+}
+
+.contact .container .bottom .data {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact .container .bottom .data .list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact .container .bottom .data .list .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'TT Hoves', sans-serif;
+}
+
+.contact .container .bottom .data .list .item svg {
+    width: 24px;
+}
+
+/* Contact end */

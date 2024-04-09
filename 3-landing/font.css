@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Regular.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 400;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 50;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Hairline.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 50;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Hairline Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 100;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Thin.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 100;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Thin Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 200;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial ExtraLight.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 200;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial ExtraLight Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Light.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 300;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Light Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 500;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Medium.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 500;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Medium Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 600;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial DemiBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 600;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial DemiBold Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 700;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Bold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 700;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Bold Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 800;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial ExtraBold.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 800;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial ExtraBold Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 900;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Black.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    font-style: italic;
+    font-weight: 900;
+    src: local('TT Hoves Pro Trial'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Black Italic.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves pro variable';
+    font-style: normal;
+    font-weight: 400;
+    src: local('TT Hoves Pro Trial Variable'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Trial Variable.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves pro';
+    font-style: normal;
+    font-weight: 910;
+    src: local('TT Hoves Pro'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Bold Outline Trial.woff') format('woff')
+}
+
+@font-face {
+    font-family: 'TT Hoves pro';
+    font-style: italic;
+    font-weight: 910;
+    src: local('TT Hoves Pro'), url('https://fonts.cdnfonts.com/s/90574/TT Hoves Pro Bold Outline Trial Italic.woff') format('woff')
+}
